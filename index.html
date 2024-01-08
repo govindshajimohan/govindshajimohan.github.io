@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,6 +17,7 @@
             color: white;
             text-align: center;
             padding: 1em;
+            animation: fadeIn 1s ease-in-out;
         }
 
         main {
@@ -26,6 +26,7 @@
             padding: 20px;
             background-color: white;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            animation: fadeIn 1s ease-in-out;
         }
 
         footer {
@@ -34,6 +35,7 @@
             padding: 10px;
             background-color: #333;
             color: white;
+            animation: fadeIn 1s ease-in-out;
         }
 
         h1, h2 {
@@ -42,6 +44,15 @@
 
         p {
             line-height: 1.6;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
         }
     </style>
 </head>
@@ -59,5 +70,9 @@
         <p>Contact: govindshajimohan@gmail.com | Phone: +91-7736191143</p>
         <p>LinkedIn: <a href="http://www.linkedin.com/in/smgovind" target="_blank" style="color: #9cf;">smgovind</a></p>
     </footer>
+
+    <script>
+        // Add your interactive elements or JavaScript code here
+    </script>
 </body>
 </html>

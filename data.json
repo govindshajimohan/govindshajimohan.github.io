@@ -1,0 +1,41 @@
+{
+    "name": "Govind S",
+    "title": "Cloud Engineer",
+    "email": "govindshajimohan@gmail.com",
+    "phone": "+91-7736191143",
+    "linkedin": "http://www.linkedin.com/in/smgovind",
+    "about": "Cloud Engineer at Tsworks with 1.9 years of hands-on experience...",
+    "projects": [
+      {
+        "title": "Cloud Engineer | Canada-Based Retail Industry",
+        "date": "October 2023 - Present",
+        "description": "Specialized in the implementation and enhancement of IT Service Management (ITSM) tools..."
+      },
+      {
+        "title": "Cloud Engineer | US Banking Project",
+        "date": "June 2022 - January 2023",
+        "description": "Responsible for resource deployment, implementation, monitoring, and management within an Azure environment..."
+      },
+      {
+        "title": "Cloud Engineer | Internal Project Contributions",
+        "date": "January 2023 - October 2023",
+        "description": "Meticulously managed Azure and AWS resources in the banking sector, ensuring compliance and fortifying operational resilience..."
+      }
+    ],
+    "responsibilities": [
+      "Deploying and Configuring VM for optimum cost, performance, and security, backing up VMs, and providing failover recovery.",
+      "Deploying Azure Infrastructure using ARM templates, Azure CLI, and Terraform."
+      // Add more responsibilities as needed
+    ],
+    "technicalSkills": {
+      "languages": "C, C++, Python, Batch Script.",
+      "databases": "MySQL, PostgreSQL.",
+      "cloudEnvironment": "AWS, Azure, GCP"
+      // Add more technical skills as needed
+    },
+    "education": "Integrated MCA (BCA + MCA) – SCMS Cochin, Kerala, India\nAugust 2017 - April 2022",
+    "awards": ["Extra mile - 2023 Quarter 2", "Extra mile - 2023 Quarter 3"],
+    "certifications": ["Microsoft Azure Administrator (AZ104) - (2022 – Present)"
+    ]
+  }
+  

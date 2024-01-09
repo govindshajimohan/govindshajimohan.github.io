@@ -1,6 +1,86 @@
-/* ... (Previous styles) ... */
-
-section {
+/* Reset and common styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .container {
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: var(--bgDark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+  }
+  
+  header nav .left a {
+    color: var(--white);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .2s ease;
+  }
+  
+  header nav .left a:hover {
+    color: var(--primary);
+  }
+  
+  header nav {
+    padding: 2rem 0;
+  }
+  
+  header nav .logo {
+    margin-right: 3rem;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+  }
+  
+  .hero .left img {
+    width: 400px;
+  }
+  
+  .hero .right {
+    color: var(--white);
+    margin-top: -7rem;
+  }
+  
+  .hero .right h6 {
+    font-size: 1.6rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+  }
+  
+  .hero .right h1 {
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+  }
+  
+  .hero .right h1 span {
+    color: var(--primary);
+  }
+  
+  .hero .right p {
+    line-height: 1.9;
+    margin-bottom: 2rem;
+  }
+  
+  /* About Me section styles */
+  section.about {
     padding: 6rem;
   }
   
@@ -44,11 +124,12 @@ section {
     background: var(--primary);
   }
   
+  /* Services section styles */
   section.services {
     background: rgb(17, 17, 17);
   }
   
-  .services-head {
+  section.services .services-head {
     color: rgb(10, 9, 9);
     text-align: center;
     margin-bottom: 1rem;
@@ -56,7 +137,7 @@ section {
     color: var(--primary);
   }
   
-  .services-head + p {
+  section.services .services-head + p {
     color: var(--white);
     font-family: 'Lato', sans-serif;
     margin-bottom: 1rem;
@@ -65,7 +146,7 @@ section {
     font-weight: 400;
   }
   
-  .card img {
+  section.services .card img {
     width: 50px;
     background: white;
   }
@@ -116,5 +197,17 @@ section {
     color: var(--white);
   }
   
-  /* ... (Remaining styles) ... */
+  /* Footer styles */
+  footer {
+    background-color: var(--bgDark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    padding: 2rem 0;
+  }
+  
+  footer p {
+    color: var(--white);
+  }
+  
+  /* ... (Add more styles as needed) ... */
+  
   
